@@ -1,0 +1,1213 @@
+2026-09-24 07:30:59.308775: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-24 07:30:59.357421: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-09-24 07:30:59.357467: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-09-24 07:30:59.358845: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-09-24 07:30:59.366053: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-24 07:31:00.225208: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-09-24 07:31:01.290715: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:274] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-09-24 07:31:01.290772: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:129] retrieving CUDA diagnostic information for host: gpu-server
+2026-09-24 07:31:01.290780: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:136] hostname: gpu-server
+2026-09-24 07:31:01.290874: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:159] libcuda reported version is: 570.148.8
+2026-09-24 07:31:01.290896: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:163] kernel reported version is: 570.148.8
+2026-09-24 07:31:01.290903: I external/local_xla/xla/stream_executor/cuda/cuda_diagnostics.cc:241] kernel version seems to match DSO: 570.148.8
+WARNING:tensorflow:From /data/HOI/LiuSiyu/MeshGraphNets/env/lib/python3.10/site-packages/sonnet/python/modules/basic.py:127: calling TruncatedNormal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0924 07:31:01.864827 139973512570688 deprecation.py:50] From /data/HOI/LiuSiyu/MeshGraphNets/env/lib/python3.10/site-packages/sonnet/python/modules/basic.py:127: calling TruncatedNormal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /data/HOI/LiuSiyu/MeshGraphNets/env/lib/python3.10/site-packages/sonnet/python/modules/basic.py:132: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0924 07:31:01.865010 139973512570688 deprecation.py:50] From /data/HOI/LiuSiyu/MeshGraphNets/env/lib/python3.10/site-packages/sonnet/python/modules/basic.py:132: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+INFO:tensorflow:Create CheckpointSaverHook.
+I0924 07:31:06.472419 139973512570688 basic_session_run_hooks.py:557] Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+I0924 07:31:07.943435 139973512570688 monitored_session.py:240] Graph was finalized.
+2026-09-24 07:31:08.035648: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+INFO:tensorflow:Running local_init_op.
+I0924 07:31:09.487028 139973512570688 session_manager.py:545] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0924 07:31:09.583384 139973512570688 session_manager.py:548] Done running local_init_op.
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 0...
+I0924 07:31:13.335651 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 0...
+INFO:tensorflow:Saving checkpoints for 0 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 07:31:13.350605 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 0 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 0...
+I0924 07:31:14.683284 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 0...
+I0924 07:31:18.836857 139973512570688 run_model.py:84] Step 0: Loss 4.96622
+INFO:tensorflow:global_step/sec: 3.15405
+I0924 07:31:51.176275 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 3.15405
+INFO:tensorflow:global_step/sec: 2.62176
+I0924 07:32:30.081756 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 2.62176
+INFO:tensorflow:global_step/sec: 2.53597
+I0924 07:33:10.302938 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 2.53597
+INFO:tensorflow:global_step/sec: 2.6085
+I0924 07:33:49.405907 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 2.6085
+INFO:tensorflow:global_step/sec: 3.07396
+I0924 07:34:22.587905 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 3.07396
+INFO:tensorflow:global_step/sec: 2.59892
+I0924 07:35:01.065415 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 2.59892
+INFO:tensorflow:global_step/sec: 2.57345
+I0924 07:35:40.701030 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 2.57345
+INFO:tensorflow:global_step/sec: 2.60582
+I0924 07:36:19.076335 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 2.60582
+INFO:tensorflow:global_step/sec: 2.62484
+I0924 07:36:57.173692 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 2.62484
+I0924 07:37:28.513917 139973512570688 run_model.py:84] Step 1000: Loss 2.2523
+INFO:tensorflow:global_step/sec: 2.481
+I0924 07:37:37.480392 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 2.481
+INFO:tensorflow:global_step/sec: 1.54207
+I0924 07:38:42.327601 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.54207
+INFO:tensorflow:global_step/sec: 1.4062
+I0924 07:39:53.441854 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.4062
+INFO:tensorflow:global_step/sec: 1.40282
+I0924 07:41:04.726014 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.40282
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 1329...
+I0924 07:41:14.867220 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 1329...
+INFO:tensorflow:Saving checkpoints for 1329 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 07:41:14.868105 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 1329 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 1329...
+I0924 07:41:15.851056 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 1329...
+INFO:tensorflow:global_step/sec: 1.41635
+I0924 07:42:15.330002 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.41635
+INFO:tensorflow:global_step/sec: 1.51636
+I0924 07:43:21.277176 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.51636
+INFO:tensorflow:global_step/sec: 1.37272
+I0924 07:44:34.126124 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37272
+INFO:tensorflow:global_step/sec: 1.36674
+I0924 07:45:47.292438 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.36674
+INFO:tensorflow:global_step/sec: 1.54978
+I0924 07:46:51.817744 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.54978
+INFO:tensorflow:global_step/sec: 1.63098
+I0924 07:47:53.130307 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63098
+I0924 07:48:52.528084 139973512570688 run_model.py:84] Step 2000: Loss 9.48208
+INFO:tensorflow:global_step/sec: 1.4508
+I0924 07:49:02.057841 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.4508
+INFO:tensorflow:global_step/sec: 1.60001
+I0924 07:50:04.558153 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60001
+INFO:tensorflow:global_step/sec: 1.72387
+I0924 07:51:02.566502 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.72387
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 2234...
+I0924 07:51:15.139270 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 2234...
+INFO:tensorflow:Saving checkpoints for 2234 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 07:51:15.139441 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 2234 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 2234...
+I0924 07:51:15.981713 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 2234...
+INFO:tensorflow:global_step/sec: 1.46778
+I0924 07:52:10.696429 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.46778
+INFO:tensorflow:global_step/sec: 1.48706
+I0924 07:53:17.943452 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.48706
+INFO:tensorflow:global_step/sec: 1.46097
+I0924 07:54:26.391185 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.46097
+INFO:tensorflow:global_step/sec: 1.37248
+I0924 07:55:39.252325 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37248
+INFO:tensorflow:global_step/sec: 1.42536
+I0924 07:56:49.410050 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.42536
+INFO:tensorflow:global_step/sec: 1.37873
+I0924 07:58:01.940833 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37873
+INFO:tensorflow:global_step/sec: 1.38608
+I0924 07:59:14.086331 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.38608
+I0924 08:00:17.364101 139973512570688 run_model.py:84] Step 3000: Loss 1.59196
+INFO:tensorflow:global_step/sec: 1.38541
+I0924 08:00:26.267025 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.38541
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 3090...
+I0924 08:01:15.757937 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 3090...
+INFO:tensorflow:Saving checkpoints for 3090 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 08:01:15.758459 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 3090 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 3090...
+I0924 08:01:16.973847 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 3090...
+INFO:tensorflow:global_step/sec: 1.54007
+I0924 08:01:31.199249 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.54007
+INFO:tensorflow:global_step/sec: 1.41823
+I0924 08:02:41.709386 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.41823
+INFO:tensorflow:global_step/sec: 1.5094
+I0924 08:03:47.961007 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5094
+INFO:tensorflow:global_step/sec: 1.67144
+I0924 08:04:47.789805 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.67144
+INFO:tensorflow:global_step/sec: 1.64584
+I0924 08:05:48.548842 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64584
+INFO:tensorflow:global_step/sec: 1.57243
+I0924 08:06:52.144708 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57243
+INFO:tensorflow:global_step/sec: 1.61052
+I0924 08:07:54.236275 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61052
+INFO:tensorflow:global_step/sec: 1.51685
+I0924 08:09:00.162388 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.51685
+INFO:tensorflow:global_step/sec: 1.68636
+I0924 08:09:59.462136 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.68636
+I0924 08:10:56.178156 139973512570688 run_model.py:84] Step 4000: Loss 0.90365
+INFO:tensorflow:global_step/sec: 1.50516
+I0924 08:11:05.900420 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50516
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 4028...
+I0924 08:11:15.855409 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 4028...
+INFO:tensorflow:Saving checkpoints for 4028 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 08:11:15.855805 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 4028 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 4028...
+I0924 08:11:16.827475 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 4028...
+INFO:tensorflow:global_step/sec: 1.35007
+I0924 08:12:19.970130 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.35007
+INFO:tensorflow:global_step/sec: 1.54302
+I0924 08:13:24.778211 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.54302
+INFO:tensorflow:global_step/sec: 1.50664
+I0924 08:14:31.151248 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50664
+INFO:tensorflow:global_step/sec: 1.4046
+I0924 08:15:42.345970 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.4046
+INFO:tensorflow:global_step/sec: 1.36743
+I0924 08:16:55.475928 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.36743
+INFO:tensorflow:global_step/sec: 1.3508
+I0924 08:18:09.505977 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.3508
+INFO:tensorflow:global_step/sec: 1.39202
+I0924 08:19:21.344858 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.39202
+INFO:tensorflow:global_step/sec: 1.36663
+I0924 08:20:34.516620 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.36663
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 4871...
+I0924 08:21:16.324213 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 4871...
+INFO:tensorflow:Saving checkpoints for 4871 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 08:21:16.324598 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 4871 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+WARNING:tensorflow:From /data/HOI/LiuSiyu/MeshGraphNets/env/lib/python3.10/site-packages/tensorflow/python/training/saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+W0924 08:21:16.378398 139973512570688 deprecation.py:50] From /data/HOI/LiuSiyu/MeshGraphNets/env/lib/python3.10/site-packages/tensorflow/python/training/saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 4871...
+I0924 08:21:17.394620 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 4871...
+INFO:tensorflow:global_step/sec: 1.32183
+I0924 08:21:50.169199 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.32183
+I0924 08:22:53.653156 139973512570688 run_model.py:84] Step 5000: Loss 1.19421
+INFO:tensorflow:global_step/sec: 1.36641
+I0924 08:23:03.353945 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.36641
+INFO:tensorflow:global_step/sec: 1.37884
+I0924 08:24:15.878205 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37884
+INFO:tensorflow:global_step/sec: 1.4961
+I0924 08:25:22.718542 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.4961
+INFO:tensorflow:global_step/sec: 1.34699
+I0924 08:26:36.958127 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.34699
+INFO:tensorflow:global_step/sec: 1.45381
+I0924 08:27:45.742841 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.45381
+INFO:tensorflow:global_step/sec: 1.35756
+I0924 08:28:59.404695 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.35756
+INFO:tensorflow:global_step/sec: 1.37261
+I0924 08:30:12.258551 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37261
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 5707...
+I0924 08:31:16.801365 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 5707...
+INFO:tensorflow:Saving checkpoints for 5707 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 08:31:16.801726 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 5707 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 5707...
+I0924 08:31:17.748675 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 5707...
+INFO:tensorflow:global_step/sec: 1.42851
+I0924 08:31:22.261420 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.42851
+INFO:tensorflow:global_step/sec: 1.48815
+I0924 08:32:29.458758 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.48815
+INFO:tensorflow:global_step/sec: 1.59319
+I0924 08:33:32.226351 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59319
+I0924 08:34:30.971310 139973512570688 run_model.py:84] Step 6000: Loss 0.430079
+INFO:tensorflow:global_step/sec: 1.46455
+I0924 08:34:40.506649 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.46455
+INFO:tensorflow:global_step/sec: 1.38268
+I0924 08:35:52.829945 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.38268
+INFO:tensorflow:global_step/sec: 1.39481
+I0924 08:37:04.524405 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.39481
+INFO:tensorflow:global_step/sec: 1.55696
+I0924 08:38:08.751696 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55696
+INFO:tensorflow:global_step/sec: 1.59379
+I0924 08:39:11.495395 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59379
+INFO:tensorflow:global_step/sec: 1.60539
+I0924 08:40:13.785712 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60539
+INFO:tensorflow:global_step/sec: 1.60796
+I0924 08:41:15.976317 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60796
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 6616...
+I0924 08:41:17.191740 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 6616...
+INFO:tensorflow:Saving checkpoints for 6616 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 08:41:17.192116 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 6616 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 6616...
+I0924 08:41:18.215245 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 6616...
+INFO:tensorflow:global_step/sec: 1.59588
+I0924 08:42:18.637770 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59588
+INFO:tensorflow:global_step/sec: 1.63706
+I0924 08:43:19.722824 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63706
+INFO:tensorflow:global_step/sec: 1.61883
+I0924 08:44:21.496041 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61883
+I0924 08:45:18.061977 139973512570688 run_model.py:84] Step 7000: Loss 1.00844
+INFO:tensorflow:global_step/sec: 1.53551
+I0924 08:45:26.620885 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.53551
+INFO:tensorflow:global_step/sec: 1.59915
+I0924 08:46:29.154383 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59915
+INFO:tensorflow:global_step/sec: 1.4319
+I0924 08:47:38.991830 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.4319
+INFO:tensorflow:global_step/sec: 1.39187
+I0924 08:48:50.837425 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.39187
+INFO:tensorflow:global_step/sec: 1.35699
+I0924 08:50:04.529835 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.35699
+INFO:tensorflow:global_step/sec: 1.43813
+I0924 08:51:14.064365 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.43813
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 7520...
+I0924 08:51:17.683884 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 7520...
+INFO:tensorflow:Saving checkpoints for 7520 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 08:51:17.684294 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 7520 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 7520...
+I0924 08:51:18.573537 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 7520...
+INFO:tensorflow:global_step/sec: 1.62444
+I0924 08:52:15.623975 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62444
+INFO:tensorflow:global_step/sec: 1.56231
+I0924 08:53:19.631843 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.56231
+INFO:tensorflow:global_step/sec: 1.58305
+I0924 08:54:22.801197 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58305
+INFO:tensorflow:global_step/sec: 1.61025
+I0924 08:55:24.903382 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61025
+I0924 08:56:21.872507 139973512570688 run_model.py:84] Step 8000: Loss 0.747685
+INFO:tensorflow:global_step/sec: 1.53092
+I0924 08:56:30.223348 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.53092
+INFO:tensorflow:global_step/sec: 1.49337
+I0924 08:57:37.186037 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.49337
+INFO:tensorflow:global_step/sec: 1.64031
+I0924 08:58:38.150241 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64031
+INFO:tensorflow:global_step/sec: 1.62202
+I0924 08:59:39.801697 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62202
+INFO:tensorflow:global_step/sec: 1.63389
+I0924 09:00:41.005480 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63389
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 8465...
+I0924 09:01:17.988792 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 8465...
+INFO:tensorflow:Saving checkpoints for 8465 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 09:01:17.989213 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 8465 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 8465...
+I0924 09:01:19.092180 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 8465...
+INFO:tensorflow:global_step/sec: 1.3455
+I0924 09:01:55.328317 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.3455
+INFO:tensorflow:global_step/sec: 1.37945
+I0924 09:03:07.820270 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37945
+INFO:tensorflow:global_step/sec: 1.57522
+I0924 09:04:11.303460 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57522
+INFO:tensorflow:global_step/sec: 1.44229
+I0924 09:05:20.637543 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.44229
+INFO:tensorflow:global_step/sec: 1.41602
+I0924 09:06:31.258213 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.41602
+I0924 09:07:31.373135 139973512570688 run_model.py:84] Step 9000: Loss 0.841412
+INFO:tensorflow:global_step/sec: 1.45096
+I0924 09:07:40.177892 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.45096
+INFO:tensorflow:global_step/sec: 1.48645
+I0924 09:08:47.452480 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.48645
+INFO:tensorflow:global_step/sec: 1.47373
+I0924 09:09:55.307358 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.47373
+INFO:tensorflow:global_step/sec: 1.53686
+I0924 09:11:00.375018 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.53686
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 9338...
+I0924 09:11:18.343157 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 9338...
+INFO:tensorflow:Saving checkpoints for 9338 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 09:11:18.343596 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 9338 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 9338...
+I0924 09:11:19.498532 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 9338...
+INFO:tensorflow:global_step/sec: 1.32902
+I0924 09:12:15.618672 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.32902
+INFO:tensorflow:global_step/sec: 1.35342
+I0924 09:13:29.505626 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.35342
+INFO:tensorflow:global_step/sec: 1.3525
+I0924 09:14:43.443069 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.3525
+INFO:tensorflow:global_step/sec: 1.43462
+I0924 09:15:53.148975 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.43462
+INFO:tensorflow:global_step/sec: 1.41875
+I0924 09:17:03.632873 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.41875
+INFO:tensorflow:global_step/sec: 1.69481
+I0924 09:18:02.636501 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.69481
+I0924 09:18:56.817145 139973512570688 run_model.py:84] Step 10000: Loss 1.46261
+INFO:tensorflow:global_step/sec: 1.56462
+I0924 09:19:06.550493 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.56462
+INFO:tensorflow:global_step/sec: 1.45669
+I0924 09:20:15.198488 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.45669
+INFO:tensorflow:global_step/sec: 1.59011
+I0924 09:21:18.087411 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59011
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 10215...
+I0924 09:21:18.691190 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 10215...
+INFO:tensorflow:Saving checkpoints for 10215 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 09:21:18.691523 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 10215 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 10215...
+I0924 09:21:19.613457 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 10215...
+INFO:tensorflow:global_step/sec: 1.58078
+I0924 09:22:21.347152 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58078
+INFO:tensorflow:global_step/sec: 1.57763
+I0924 09:23:24.733329 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57763
+INFO:tensorflow:global_step/sec: 1.58238
+I0924 09:24:27.929297 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58238
+INFO:tensorflow:global_step/sec: 1.5791
+I0924 09:25:31.256631 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5791
+INFO:tensorflow:global_step/sec: 1.58406
+I0924 09:26:34.385730 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58406
+INFO:tensorflow:global_step/sec: 1.60705
+I0924 09:27:36.611730 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60705
+INFO:tensorflow:global_step/sec: 1.62227
+I0924 09:28:38.253848 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62227
+I0924 09:29:31.815951 139973512570688 run_model.py:84] Step 11000: Loss 0.488073
+INFO:tensorflow:global_step/sec: 1.62521
+I0924 09:29:39.784375 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62521
+INFO:tensorflow:global_step/sec: 1.61031
+I0924 09:30:41.884322 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61031
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 11175...
+I0924 09:31:19.218601 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 11175...
+INFO:tensorflow:Saving checkpoints for 11175 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 09:31:19.219371 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 11175 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 11175...
+I0924 09:31:20.082506 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 11175...
+INFO:tensorflow:global_step/sec: 1.60945
+I0924 09:31:44.017256 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60945
+INFO:tensorflow:global_step/sec: 1.48603
+I0924 09:32:51.310508 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.48603
+INFO:tensorflow:global_step/sec: 1.43744
+I0924 09:34:00.878854 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.43744
+INFO:tensorflow:global_step/sec: 1.63683
+I0924 09:35:01.972657 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63683
+INFO:tensorflow:global_step/sec: 1.6377
+I0924 09:36:03.033802 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6377
+INFO:tensorflow:global_step/sec: 1.63266
+I0924 09:37:04.283769 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63266
+INFO:tensorflow:global_step/sec: 1.57783
+I0924 09:38:07.661704 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57783
+INFO:tensorflow:global_step/sec: 1.62722
+I0924 09:39:09.116291 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62722
+I0924 09:40:06.319550 139973512570688 run_model.py:84] Step 12000: Loss 0.996389
+INFO:tensorflow:global_step/sec: 1.52191
+I0924 09:40:14.823206 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.52191
+INFO:tensorflow:global_step/sec: 1.61417
+I0924 09:41:16.774382 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61417
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 12119...
+I0924 09:41:19.789753 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 12119...
+INFO:tensorflow:Saving checkpoints for 12119 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 09:41:19.790071 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 12119 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 12119...
+I0924 09:41:20.682680 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 12119...
+INFO:tensorflow:global_step/sec: 1.53832
+I0924 09:42:21.780244 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.53832
+INFO:tensorflow:global_step/sec: 1.42022
+I0924 09:43:32.192104 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.42022
+INFO:tensorflow:global_step/sec: 1.51285
+I0924 09:44:38.292479 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.51285
+INFO:tensorflow:global_step/sec: 1.6222
+I0924 09:45:39.937303 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6222
+INFO:tensorflow:global_step/sec: 1.59079
+I0924 09:46:42.799696 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59079
+INFO:tensorflow:global_step/sec: 1.47657
+I0924 09:47:50.523896 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.47657
+INFO:tensorflow:global_step/sec: 1.6428
+I0924 09:48:51.395390 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6428
+INFO:tensorflow:global_step/sec: 1.61566
+I0924 09:49:53.289679 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61566
+I0924 09:50:46.050428 139973512570688 run_model.py:84] Step 13000: Loss 1.11289
+INFO:tensorflow:global_step/sec: 1.63405
+I0924 09:50:54.487613 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63405
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 13055...
+I0924 09:51:19.855027 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 13055...
+INFO:tensorflow:Saving checkpoints for 13055 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 09:51:19.855280 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 13055 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 13055...
+I0924 09:51:20.814422 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 13055...
+INFO:tensorflow:global_step/sec: 1.60647
+I0924 09:51:56.735617 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60647
+INFO:tensorflow:global_step/sec: 1.58964
+I0924 09:52:59.643087 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58964
+INFO:tensorflow:global_step/sec: 1.63008
+I0924 09:54:00.989567 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63008
+INFO:tensorflow:global_step/sec: 1.60385
+I0924 09:55:03.339634 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60385
+INFO:tensorflow:global_step/sec: 1.52263
+I0924 09:56:09.015308 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.52263
+INFO:tensorflow:global_step/sec: 1.57825
+I0924 09:57:12.376502 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57825
+INFO:tensorflow:global_step/sec: 1.62121
+I0924 09:58:14.058896 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62121
+INFO:tensorflow:global_step/sec: 1.62891
+I0924 09:59:15.449645 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62891
+INFO:tensorflow:global_step/sec: 1.55649
+I0924 10:00:19.696974 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55649
+I0924 10:01:16.448091 139973512570688 run_model.py:84] Step 14000: Loss 1.31828
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 14007...
+I0924 10:01:20.039640 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 14007...
+INFO:tensorflow:Saving checkpoints for 14007 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 10:01:20.040009 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 14007 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 14007...
+I0924 10:01:20.849956 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 14007...
+INFO:tensorflow:global_step/sec: 1.5279
+I0924 10:01:25.146070 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5279
+INFO:tensorflow:global_step/sec: 1.55195
+I0924 10:02:29.581278 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55195
+INFO:tensorflow:global_step/sec: 1.55733
+I0924 10:03:33.793983 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55733
+INFO:tensorflow:global_step/sec: 1.62075
+I0924 10:04:35.493703 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62075
+INFO:tensorflow:global_step/sec: 1.5027
+I0924 10:05:42.040342 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5027
+INFO:tensorflow:global_step/sec: 1.55063
+I0924 10:06:46.530432 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55063
+INFO:tensorflow:global_step/sec: 1.64161
+I0924 10:07:47.446310 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64161
+INFO:tensorflow:global_step/sec: 1.60439
+I0924 10:08:49.775016 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60439
+INFO:tensorflow:global_step/sec: 1.61427
+I0924 10:09:51.722710 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61427
+INFO:tensorflow:global_step/sec: 1.60793
+I0924 10:10:53.914454 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60793
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 14956...
+I0924 10:11:20.107836 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 14956...
+INFO:tensorflow:Saving checkpoints for 14956 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 10:11:20.108218 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 14956 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 14956...
+I0924 10:11:20.965905 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 14956...
+I0924 10:11:48.671638 139973512570688 run_model.py:84] Step 15000: Loss 1.5062
+INFO:tensorflow:global_step/sec: 1.59338
+I0924 10:11:56.674176 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59338
+INFO:tensorflow:global_step/sec: 1.60184
+I0924 10:12:59.102313 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60184
+INFO:tensorflow:global_step/sec: 1.51084
+I0924 10:14:05.290677 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.51084
+INFO:tensorflow:global_step/sec: 1.60991
+I0924 10:15:07.406009 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60991
+INFO:tensorflow:global_step/sec: 1.61422
+I0924 10:16:09.355433 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61422
+INFO:tensorflow:global_step/sec: 1.60254
+I0924 10:17:11.756292 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60254
+INFO:tensorflow:global_step/sec: 1.61346
+I0924 10:18:13.734969 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61346
+INFO:tensorflow:global_step/sec: 1.60971
+I0924 10:19:15.858201 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60971
+INFO:tensorflow:global_step/sec: 1.61433
+I0924 10:20:17.803357 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61433
+INFO:tensorflow:global_step/sec: 1.62425
+I0924 10:21:19.370349 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62425
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 15916...
+I0924 10:21:20.613184 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 15916...
+INFO:tensorflow:Saving checkpoints for 15916 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 10:21:20.613527 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 15916 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 15916...
+I0924 10:21:21.423245 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 15916...
+I0924 10:22:13.880007 139973512570688 run_model.py:84] Step 16000: Loss 0.75976
+INFO:tensorflow:global_step/sec: 1.59927
+I0924 10:22:21.898623 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59927
+INFO:tensorflow:global_step/sec: 1.63919
+I0924 10:23:22.904406 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63919
+INFO:tensorflow:global_step/sec: 1.60659
+I0924 10:24:25.147962 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60659
+INFO:tensorflow:global_step/sec: 1.62901
+I0924 10:25:26.535098 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62901
+INFO:tensorflow:global_step/sec: 1.6261
+I0924 10:26:28.032094 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6261
+INFO:tensorflow:global_step/sec: 1.56447
+I0924 10:27:31.951719 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.56447
+INFO:tensorflow:global_step/sec: 1.61235
+I0924 10:28:33.972884 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61235
+INFO:tensorflow:global_step/sec: 1.44164
+I0924 10:29:43.338475 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.44164
+INFO:tensorflow:global_step/sec: 1.56112
+I0924 10:30:47.394994 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.56112
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 16868...
+I0924 10:31:20.974285 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 16868...
+INFO:tensorflow:Saving checkpoints for 16868 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 10:31:20.974897 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 16868 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 16868...
+I0924 10:31:21.892718 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 16868...
+INFO:tensorflow:global_step/sec: 1.59725
+I0924 10:31:50.002554 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59725
+I0924 10:32:43.547990 139973512570688 run_model.py:84] Step 17000: Loss 0.777033
+INFO:tensorflow:global_step/sec: 1.62948
+I0924 10:32:51.371776 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62948
+INFO:tensorflow:global_step/sec: 1.55915
+I0924 10:33:55.509200 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55915
+INFO:tensorflow:global_step/sec: 1.62284
+I0924 10:34:57.129490 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62284
+INFO:tensorflow:global_step/sec: 1.63736
+I0924 10:35:58.203281 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63736
+INFO:tensorflow:global_step/sec: 1.59333
+I0924 10:37:00.965063 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59333
+INFO:tensorflow:global_step/sec: 1.38108
+I0924 10:38:13.372601 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.38108
+INFO:tensorflow:global_step/sec: 1.34936
+I0924 10:39:27.481416 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.34936
+INFO:tensorflow:global_step/sec: 1.58765
+I0924 10:40:30.467576 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58765
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 17786...
+I0924 10:41:21.113417 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 17786...
+INFO:tensorflow:Saving checkpoints for 17786 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 10:41:21.113903 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 17786 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 17786...
+I0924 10:41:21.995869 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 17786...
+INFO:tensorflow:global_step/sec: 1.4026
+I0924 10:41:41.763511 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.4026
+INFO:tensorflow:global_step/sec: 1.63461
+I0924 10:42:42.940299 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63461
+I0924 10:43:37.522387 139973512570688 run_model.py:84] Step 18000: Loss 0.375483
+INFO:tensorflow:global_step/sec: 1.59625
+I0924 10:43:45.587251 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59625
+INFO:tensorflow:global_step/sec: 1.66409
+I0924 10:44:45.680045 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.66409
+INFO:tensorflow:global_step/sec: 1.44297
+I0924 10:45:54.981503 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.44297
+INFO:tensorflow:global_step/sec: 1.4385
+I0924 10:47:04.498299 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.4385
+INFO:tensorflow:global_step/sec: 1.4045
+I0924 10:48:15.697958 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.4045
+INFO:tensorflow:global_step/sec: 1.50477
+I0924 10:49:22.153083 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50477
+INFO:tensorflow:global_step/sec: 1.62865
+I0924 10:50:23.553724 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62865
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 18709...
+I0924 10:51:21.593155 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 18709...
+INFO:tensorflow:Saving checkpoints for 18709 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 10:51:21.593449 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 18709 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 18709...
+I0924 10:51:22.449460 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 18709...
+INFO:tensorflow:global_step/sec: 1.61452
+I0924 10:51:25.491611 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61452
+INFO:tensorflow:global_step/sec: 1.41561
+I0924 10:52:36.132793 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.41561
+INFO:tensorflow:global_step/sec: 1.62749
+I0924 10:53:37.576971 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62749
+I0924 10:54:31.027744 139973512570688 run_model.py:84] Step 19000: Loss 1.42396
+INFO:tensorflow:global_step/sec: 1.62604
+I0924 10:54:39.075923 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62604
+INFO:tensorflow:global_step/sec: 1.45536
+I0924 10:55:47.787665 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.45536
+INFO:tensorflow:global_step/sec: 1.62526
+I0924 10:56:49.316146 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62526
+INFO:tensorflow:global_step/sec: 1.61861
+I0924 10:57:51.097553 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61861
+INFO:tensorflow:global_step/sec: 1.64454
+I0924 10:58:51.904792 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64454
+INFO:tensorflow:global_step/sec: 1.64995
+I0924 10:59:52.512967 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64995
+INFO:tensorflow:global_step/sec: 1.63382
+I0924 11:00:53.718774 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63382
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 19661...
+I0924 11:01:21.995636 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 19661...
+INFO:tensorflow:Saving checkpoints for 19661 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 11:01:21.996001 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 19661 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 19661...
+I0924 11:01:22.854763 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 19661...
+INFO:tensorflow:global_step/sec: 1.63187
+I0924 11:01:54.998466 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63187
+INFO:tensorflow:global_step/sec: 1.65082
+I0924 11:02:55.574245 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.65082
+INFO:tensorflow:global_step/sec: 1.62963
+I0924 11:03:56.937691 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62963
+I0924 11:04:50.333240 139973512570688 run_model.py:84] Step 20000: Loss 1.1503
+INFO:tensorflow:global_step/sec: 1.62988
+I0924 11:04:58.291982 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62988
+INFO:tensorflow:global_step/sec: 1.59601
+I0924 11:06:00.948035 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59601
+INFO:tensorflow:global_step/sec: 1.62562
+I0924 11:07:02.462865 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62562
+INFO:tensorflow:global_step/sec: 1.61136
+I0924 11:08:04.522114 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61136
+INFO:tensorflow:global_step/sec: 1.50088
+I0924 11:09:11.149641 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50088
+INFO:tensorflow:global_step/sec: 1.59935
+I0924 11:10:13.674958 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59935
+INFO:tensorflow:global_step/sec: 1.58594
+I0924 11:11:16.729190 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58594
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 20623...
+I0924 11:11:22.275756 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 20623...
+INFO:tensorflow:Saving checkpoints for 20623 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 11:11:22.276153 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 20623 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 20623...
+I0924 11:11:23.164035 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 20623...
+INFO:tensorflow:global_step/sec: 1.5928
+I0924 11:12:19.511846 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5928
+INFO:tensorflow:global_step/sec: 1.52214
+I0924 11:13:25.208998 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.52214
+INFO:tensorflow:global_step/sec: 1.40974
+I0924 11:14:36.143673 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.40974
+I0924 11:15:39.261214 139973512570688 run_model.py:84] Step 21000: Loss 0.280829
+INFO:tensorflow:global_step/sec: 1.37454
+I0924 11:15:48.895504 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37454
+INFO:tensorflow:global_step/sec: 1.47612
+I0924 11:16:56.640794 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.47612
+INFO:tensorflow:global_step/sec: 1.3971
+I0924 11:18:08.217698 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.3971
+INFO:tensorflow:global_step/sec: 1.5858
+I0924 11:19:11.277357 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5858
+INFO:tensorflow:global_step/sec: 1.6464
+I0924 11:20:12.015714 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6464
+INFO:tensorflow:global_step/sec: 1.56048
+I0924 11:21:16.098440 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.56048
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 21525...
+I0924 11:21:22.661073 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 21525...
+INFO:tensorflow:Saving checkpoints for 21525 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 11:21:22.661401 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 21525 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 21525...
+I0924 11:21:23.659028 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 21525...
+INFO:tensorflow:global_step/sec: 1.56
+I0924 11:22:20.201037 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.56
+INFO:tensorflow:global_step/sec: 1.41115
+I0924 11:23:31.065237 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.41115
+INFO:tensorflow:global_step/sec: 1.68735
+I0924 11:24:30.329716 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.68735
+INFO:tensorflow:global_step/sec: 1.62961
+I0924 11:25:31.694187 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62961
+I0924 11:26:24.824990 139973512570688 run_model.py:84] Step 22000: Loss 0.764694
+INFO:tensorflow:global_step/sec: 1.62947
+I0924 11:26:33.063882 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62947
+INFO:tensorflow:global_step/sec: 1.61017
+I0924 11:27:35.169211 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61017
+INFO:tensorflow:global_step/sec: 1.65893
+I0924 11:28:35.448853 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.65893
+INFO:tensorflow:global_step/sec: 1.57215
+I0924 11:29:39.055844 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57215
+INFO:tensorflow:global_step/sec: 1.62641
+I0924 11:30:40.540797 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62641
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 22483...
+I0924 11:31:22.766497 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 22483...
+INFO:tensorflow:Saving checkpoints for 22483 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 11:31:22.766837 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 22483 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 22483...
+I0924 11:31:23.649628 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 22483...
+INFO:tensorflow:global_step/sec: 1.59234
+I0924 11:31:43.341422 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59234
+INFO:tensorflow:global_step/sec: 1.64183
+I0924 11:32:44.249299 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64183
+INFO:tensorflow:global_step/sec: 1.58832
+I0924 11:33:47.209038 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58832
+INFO:tensorflow:global_step/sec: 1.60753
+I0924 11:34:49.416241 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60753
+INFO:tensorflow:global_step/sec: 1.48059
+I0924 11:35:56.956678 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.48059
+I0924 11:36:49.900621 139973512570688 run_model.py:84] Step 23000: Loss 2.80813
+INFO:tensorflow:global_step/sec: 1.64483
+I0924 11:36:57.753322 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64483
+INFO:tensorflow:global_step/sec: 1.51241
+I0924 11:38:03.872880 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.51241
+INFO:tensorflow:global_step/sec: 1.64499
+I0924 11:39:04.663199 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64499
+INFO:tensorflow:global_step/sec: 1.62359
+I0924 11:40:06.255206 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62359
+INFO:tensorflow:global_step/sec: 1.64001
+I0924 11:41:07.230457 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64001
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 23440...
+I0924 11:41:22.974366 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 23440...
+INFO:tensorflow:Saving checkpoints for 23440 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 11:41:22.974710 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 23440 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 23440...
+I0924 11:41:23.905473 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 23440...
+INFO:tensorflow:global_step/sec: 1.61331
+I0924 11:42:09.215048 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61331
+INFO:tensorflow:global_step/sec: 1.59323
+I0924 11:43:11.980267 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59323
+INFO:tensorflow:global_step/sec: 1.63376
+I0924 11:44:13.188939 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63376
+INFO:tensorflow:global_step/sec: 1.64613
+I0924 11:45:13.937318 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64613
+INFO:tensorflow:global_step/sec: 1.64939
+I0924 11:46:14.565819 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64939
+I0924 11:47:08.252423 139973512570688 run_model.py:84] Step 24000: Loss 0.436803
+INFO:tensorflow:global_step/sec: 1.62326
+I0924 11:47:16.170405 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62326
+INFO:tensorflow:global_step/sec: 1.64263
+I0924 11:48:17.048544 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64263
+INFO:tensorflow:global_step/sec: 1.46896
+I0924 11:49:25.123769 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.46896
+INFO:tensorflow:global_step/sec: 1.63073
+I0924 11:50:26.445839 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63073
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 24407...
+I0924 11:51:23.251392 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 24407...
+INFO:tensorflow:Saving checkpoints for 24407 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 11:51:23.251869 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 24407 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 24407...
+I0924 11:51:24.046292 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 24407...
+INFO:tensorflow:global_step/sec: 1.61574
+I0924 11:51:28.337392 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61574
+INFO:tensorflow:global_step/sec: 1.64254
+I0924 11:52:29.218494 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64254
+INFO:tensorflow:global_step/sec: 1.64783
+I0924 11:53:29.904445 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64783
+INFO:tensorflow:global_step/sec: 1.64881
+I0924 11:54:30.554090 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64881
+INFO:tensorflow:global_step/sec: 1.64181
+I0924 11:55:31.462551 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64181
+INFO:tensorflow:global_step/sec: 1.65642
+I0924 11:56:31.833594 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.65642
+I0924 11:57:25.898826 139973512570688 run_model.py:84] Step 25000: Loss 1.03105
+INFO:tensorflow:global_step/sec: 1.61079
+I0924 11:57:33.914736 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61079
+INFO:tensorflow:global_step/sec: 1.6402
+I0924 11:58:34.883062 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6402
+INFO:tensorflow:global_step/sec: 1.61895
+I0924 11:59:36.651435 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61895
+INFO:tensorflow:global_step/sec: 1.62562
+I0924 12:00:38.166154 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62562
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 25388...
+I0924 12:01:23.815246 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 25388...
+INFO:tensorflow:Saving checkpoints for 25388 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 12:01:23.815627 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 25388 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 25388...
+I0924 12:01:24.882600 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 25388...
+INFO:tensorflow:global_step/sec: 1.59433
+I0924 12:01:40.888632 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59433
+INFO:tensorflow:global_step/sec: 1.50113
+I0924 12:02:47.504977 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50113
+INFO:tensorflow:global_step/sec: 1.51957
+I0924 12:03:53.312926 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.51957
+INFO:tensorflow:global_step/sec: 1.35651
+I0924 12:05:07.031716 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.35651
+INFO:tensorflow:global_step/sec: 1.61295
+I0924 12:06:09.029888 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61295
+INFO:tensorflow:global_step/sec: 1.64665
+I0924 12:07:09.760148 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64665
+I0924 12:08:02.791459 139973512570688 run_model.py:84] Step 26000: Loss 0.578159
+INFO:tensorflow:global_step/sec: 1.63725
+I0924 12:08:10.837391 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63725
+INFO:tensorflow:global_step/sec: 1.62642
+I0924 12:09:12.321960 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62642
+INFO:tensorflow:global_step/sec: 1.63169
+I0924 12:10:13.608142 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63169
+INFO:tensorflow:global_step/sec: 1.62984
+I0924 12:11:14.964611 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62984
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 26329...
+I0924 12:11:24.273276 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 26329...
+INFO:tensorflow:Saving checkpoints for 26329 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 12:11:24.273670 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 26329 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 26329...
+I0924 12:11:25.217073 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 26329...
+INFO:tensorflow:global_step/sec: 1.55145
+I0924 12:12:19.419912 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55145
+INFO:tensorflow:global_step/sec: 1.6132
+I0924 12:13:21.408509 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6132
+INFO:tensorflow:global_step/sec: 1.59632
+I0924 12:14:24.052416 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59632
+INFO:tensorflow:global_step/sec: 1.62188
+I0924 12:15:25.709174 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62188
+INFO:tensorflow:global_step/sec: 1.39056
+I0924 12:16:37.622800 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.39056
+INFO:tensorflow:global_step/sec: 1.50359
+I0924 12:17:44.130021 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50359
+I0924 12:18:47.145438 139973512570688 run_model.py:84] Step 27000: Loss 1.35232
+INFO:tensorflow:global_step/sec: 1.37673
+I0924 12:18:56.765852 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37673
+INFO:tensorflow:global_step/sec: 1.34284
+I0924 12:20:11.234800 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.34284
+INFO:tensorflow:global_step/sec: 1.38423
+I0924 12:21:23.477205 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.38423
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 27216...
+I0924 12:21:24.679848 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 27216...
+INFO:tensorflow:Saving checkpoints for 27216 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 12:21:24.680232 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 27216 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 27216...
+I0924 12:21:25.586118 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 27216...
+INFO:tensorflow:global_step/sec: 1.58934
+I0924 12:22:26.396376 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58934
+INFO:tensorflow:global_step/sec: 1.60236
+I0924 12:23:28.804436 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60236
+INFO:tensorflow:global_step/sec: 1.621
+I0924 12:24:30.495012 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.621
+INFO:tensorflow:global_step/sec: 1.62519
+I0924 12:25:32.026725 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62519
+INFO:tensorflow:global_step/sec: 1.64056
+I0924 12:26:32.981276 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64056
+INFO:tensorflow:global_step/sec: 1.65264
+I0924 12:27:33.490481 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.65264
+INFO:tensorflow:global_step/sec: 1.64504
+I0924 12:28:34.279210 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64504
+I0924 12:29:29.060397 139973512570688 run_model.py:84] Step 28000: Loss 0.428085
+INFO:tensorflow:global_step/sec: 1.54568
+I0924 12:29:38.975863 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.54568
+INFO:tensorflow:global_step/sec: 1.55468
+I0924 12:30:43.297633 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55468
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 28183...
+I0924 12:31:25.050630 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 28183...
+INFO:tensorflow:Saving checkpoints for 28183 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 12:31:25.050917 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 28183 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 28183...
+I0924 12:31:26.020270 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 28183...
+INFO:tensorflow:global_step/sec: 1.63989
+I0924 12:31:44.277137 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63989
+INFO:tensorflow:global_step/sec: 1.63744
+I0924 12:32:45.348223 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63744
+INFO:tensorflow:global_step/sec: 1.53068
+I0924 12:33:50.678562 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.53068
+INFO:tensorflow:global_step/sec: 1.61467
+I0924 12:34:52.610744 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61467
+INFO:tensorflow:global_step/sec: 1.55846
+I0924 12:35:56.776834 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55846
+INFO:tensorflow:global_step/sec: 1.53296
+I0924 12:37:02.010049 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.53296
+INFO:tensorflow:global_step/sec: 1.49363
+I0924 12:38:08.961150 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.49363
+INFO:tensorflow:global_step/sec: 1.3611
+I0924 12:39:22.431130 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.3611
+I0924 12:40:18.403567 139973512570688 run_model.py:84] Step 29000: Loss 0.52898
+INFO:tensorflow:global_step/sec: 1.57096
+I0924 12:40:26.086578 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57096
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 29110...
+I0924 12:41:25.241036 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 29110...
+INFO:tensorflow:Saving checkpoints for 29110 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 12:41:25.241459 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 29110 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 29110...
+I0924 12:41:26.287521 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 29110...
+INFO:tensorflow:global_step/sec: 1.58475
+I0924 12:41:29.187967 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58475
+INFO:tensorflow:global_step/sec: 1.36562
+I0924 12:42:42.414953 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.36562
+INFO:tensorflow:global_step/sec: 1.37468
+I0924 12:43:55.160422 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37468
+INFO:tensorflow:global_step/sec: 1.49471
+I0924 12:45:02.061718 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.49471
+INFO:tensorflow:global_step/sec: 1.41409
+I0924 12:46:12.778633 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.41409
+INFO:tensorflow:global_step/sec: 1.62126
+I0924 12:47:14.458925 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62126
+INFO:tensorflow:global_step/sec: 1.68998
+I0924 12:48:13.631327 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.68998
+INFO:tensorflow:global_step/sec: 1.63552
+I0924 12:49:14.773729 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63552
+INFO:tensorflow:global_step/sec: 1.46362
+I0924 12:50:23.097601 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.46362
+I0924 12:51:18.976918 139973512570688 run_model.py:84] Step 30000: Loss 0.382143
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 30011...
+I0924 12:51:25.378938 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 30011...
+INFO:tensorflow:Saving checkpoints for 30011 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 12:51:25.379292 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 30011 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 30011...
+I0924 12:51:26.380538 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 30011...
+INFO:tensorflow:global_step/sec: 1.52964
+I0924 12:51:28.471964 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.52964
+INFO:tensorflow:global_step/sec: 1.53844
+I0924 12:52:33.473200 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.53844
+INFO:tensorflow:global_step/sec: 1.60565
+I0924 12:53:35.753208 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60565
+INFO:tensorflow:global_step/sec: 1.63881
+I0924 12:54:36.773036 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63881
+INFO:tensorflow:global_step/sec: 1.65185
+I0924 12:55:37.311364 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.65185
+INFO:tensorflow:global_step/sec: 1.38793
+I0924 12:56:49.361184 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.38793
+INFO:tensorflow:global_step/sec: 1.38999
+I0924 12:58:01.304248 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.38999
+INFO:tensorflow:global_step/sec: 1.61804
+I0924 12:59:03.107413 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61804
+INFO:tensorflow:global_step/sec: 1.64087
+I0924 13:00:04.050764 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64087
+INFO:tensorflow:global_step/sec: 1.6458
+I0924 13:01:04.811743 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6458
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 30949...
+I0924 13:01:25.897504 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 30949...
+INFO:tensorflow:Saving checkpoints for 30949 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 13:01:25.897813 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 30949 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 30949...
+I0924 13:01:26.881308 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 30949...
+I0924 13:01:58.668596 139973512570688 run_model.py:84] Step 31000: Loss 0.83791
+INFO:tensorflow:global_step/sec: 1.61928
+I0924 13:02:06.567488 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61928
+INFO:tensorflow:global_step/sec: 1.63067
+I0924 13:03:07.891855 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63067
+INFO:tensorflow:global_step/sec: 1.58413
+I0924 13:04:11.018110 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58413
+INFO:tensorflow:global_step/sec: 1.63651
+I0924 13:05:12.123910 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63651
+INFO:tensorflow:global_step/sec: 1.63708
+I0924 13:06:13.208116 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63708
+INFO:tensorflow:global_step/sec: 1.6448
+I0924 13:07:14.005585 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6448
+INFO:tensorflow:global_step/sec: 1.648
+I0924 13:08:14.685034 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.648
+INFO:tensorflow:global_step/sec: 1.59789
+I0924 13:09:17.267653 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59789
+INFO:tensorflow:global_step/sec: 1.61059
+I0924 13:10:19.356828 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61059
+INFO:tensorflow:global_step/sec: 1.49797
+I0924 13:11:26.113696 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.49797
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 31914...
+I0924 13:11:26.114891 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 31914...
+INFO:tensorflow:Saving checkpoints for 31914 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 13:11:26.115104 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 31914 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 31914...
+I0924 13:11:26.953115 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 31914...
+I0924 13:12:19.709143 139973512570688 run_model.py:84] Step 32000: Loss 0.665804
+INFO:tensorflow:global_step/sec: 1.62555
+I0924 13:12:27.631855 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62555
+INFO:tensorflow:global_step/sec: 1.6171
+I0924 13:13:29.470464 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6171
+INFO:tensorflow:global_step/sec: 1.63216
+I0924 13:14:30.738819 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63216
+INFO:tensorflow:global_step/sec: 1.62603
+I0924 13:15:32.238392 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62603
+INFO:tensorflow:global_step/sec: 1.63467
+I0924 13:16:33.412994 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63467
+INFO:tensorflow:global_step/sec: 1.63386
+I0924 13:17:34.617802 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63386
+INFO:tensorflow:global_step/sec: 1.64427
+I0924 13:18:35.434983 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64427
+INFO:tensorflow:global_step/sec: 1.63419
+I0924 13:19:36.627300 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63419
+INFO:tensorflow:global_step/sec: 1.64808
+I0924 13:20:37.304191 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64808
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 32894...
+I0924 13:21:26.136612 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 32894...
+INFO:tensorflow:Saving checkpoints for 32894 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 13:21:26.137085 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 32894 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 32894...
+I0924 13:21:27.127058 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 32894...
+INFO:tensorflow:global_step/sec: 1.615
+I0924 13:21:39.223520 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.615
+I0924 13:22:32.028005 139973512570688 run_model.py:84] Step 33000: Loss 0.0604653
+INFO:tensorflow:global_step/sec: 1.647
+I0924 13:22:39.940090 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.647
+INFO:tensorflow:global_step/sec: 1.64244
+I0924 13:23:40.825028 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64244
+INFO:tensorflow:global_step/sec: 1.44549
+I0924 13:24:50.005544 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.44549
+INFO:tensorflow:global_step/sec: 1.75285
+I0924 13:25:47.055695 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.75285
+INFO:tensorflow:global_step/sec: 1.74157
+I0924 13:26:44.475301 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.74157
+INFO:tensorflow:global_step/sec: 1.74826
+I0924 13:27:41.674901 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.74826
+INFO:tensorflow:global_step/sec: 1.66631
+I0924 13:28:41.687403 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.66631
+INFO:tensorflow:global_step/sec: 1.62891
+I0924 13:29:43.078014 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62891
+INFO:tensorflow:global_step/sec: 1.67069
+I0924 13:30:42.933533 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.67069
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 33882...
+I0924 13:31:26.581366 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 33882...
+INFO:tensorflow:Saving checkpoints for 33882 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 13:31:26.581849 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 33882 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 33882...
+I0924 13:31:27.543824 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 33882...
+INFO:tensorflow:global_step/sec: 1.47701
+I0924 13:31:50.637814 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.47701
+I0924 13:32:45.458571 139973512570688 run_model.py:84] Step 34000: Loss 0.593712
+INFO:tensorflow:global_step/sec: 1.59222
+I0924 13:32:53.443270 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59222
+INFO:tensorflow:global_step/sec: 1.61858
+I0924 13:33:55.225454 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61858
+INFO:tensorflow:global_step/sec: 1.42654
+I0924 13:35:05.325293 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.42654
+INFO:tensorflow:global_step/sec: 1.58602
+I0924 13:36:08.376397 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58602
+INFO:tensorflow:global_step/sec: 1.37365
+I0924 13:37:21.175199 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37365
+INFO:tensorflow:global_step/sec: 1.39794
+I0924 13:38:32.708895 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.39794
+INFO:tensorflow:global_step/sec: 1.59258
+I0924 13:39:35.500086 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59258
+INFO:tensorflow:global_step/sec: 1.57265
+I0924 13:40:39.086826 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57265
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 34791...
+I0924 13:41:26.735097 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 34791...
+INFO:tensorflow:Saving checkpoints for 34791 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 13:41:26.735433 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 34791 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 34791...
+I0924 13:41:27.631850 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 34791...
+INFO:tensorflow:global_step/sec: 1.59624
+I0924 13:41:41.733979 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59624
+INFO:tensorflow:global_step/sec: 1.62702
+I0924 13:42:43.195921 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62702
+I0924 13:43:37.041058 139973512570688 run_model.py:84] Step 35000: Loss 0.605517
+INFO:tensorflow:global_step/sec: 1.61693
+I0924 13:43:45.041538 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61693
+INFO:tensorflow:global_step/sec: 1.61361
+I0924 13:44:47.014299 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61361
+INFO:tensorflow:global_step/sec: 1.61523
+I0924 13:45:48.925160 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61523
+INFO:tensorflow:global_step/sec: 1.5853
+I0924 13:46:52.004712 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5853
+INFO:tensorflow:global_step/sec: 1.62646
+I0924 13:47:53.488437 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62646
+INFO:tensorflow:global_step/sec: 1.61413
+I0924 13:48:55.440699 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61413
+INFO:tensorflow:global_step/sec: 1.61905
+I0924 13:49:57.205253 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61905
+INFO:tensorflow:global_step/sec: 1.55747
+I0924 13:51:01.411958 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.55747
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 35750...
+I0924 13:51:26.997390 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 35750...
+INFO:tensorflow:Saving checkpoints for 35750 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 13:51:26.998030 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 35750 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 35750...
+I0924 13:51:28.065897 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 35750...
+INFO:tensorflow:global_step/sec: 1.42501
+I0924 13:52:11.587156 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.42501
+INFO:tensorflow:global_step/sec: 1.59224
+I0924 13:53:14.391727 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59224
+I0924 13:54:08.115293 139973512570688 run_model.py:84] Step 36000: Loss 0.364526
+INFO:tensorflow:global_step/sec: 1.61889
+I0924 13:54:16.162479 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61889
+INFO:tensorflow:global_step/sec: 1.61877
+I0924 13:55:17.937688 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61877
+INFO:tensorflow:global_step/sec: 1.62565
+I0924 13:56:19.451698 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62565
+INFO:tensorflow:global_step/sec: 1.63094
+I0924 13:57:20.766133 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63094
+INFO:tensorflow:global_step/sec: 1.6336
+I0924 13:58:21.980762 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.6336
+INFO:tensorflow:global_step/sec: 1.5854
+I0924 13:59:25.056278 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5854
+INFO:tensorflow:global_step/sec: 1.64192
+I0924 14:00:25.960461 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64192
+INFO:tensorflow:global_step/sec: 1.63294
+I0924 14:01:27.199877 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63294
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 36714...
+I0924 14:01:27.201267 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 36714...
+INFO:tensorflow:Saving checkpoints for 36714 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 14:01:27.201477 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 36714 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 36714...
+I0924 14:01:28.072460 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 36714...
+INFO:tensorflow:global_step/sec: 1.61612
+I0924 14:02:29.076394 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61612
+INFO:tensorflow:global_step/sec: 1.62255
+I0924 14:03:30.707642 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62255
+I0924 14:04:25.722552 139973512570688 run_model.py:84] Step 37000: Loss 0.515869
+INFO:tensorflow:global_step/sec: 1.5425
+I0924 14:04:35.537391 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5425
+INFO:tensorflow:global_step/sec: 1.5547
+I0924 14:05:39.858298 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5547
+INFO:tensorflow:global_step/sec: 1.50539
+I0924 14:06:46.286252 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50539
+INFO:tensorflow:global_step/sec: 1.37032
+I0924 14:07:59.261750 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.37032
+INFO:tensorflow:global_step/sec: 1.65016
+I0924 14:08:59.862155 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.65016
+INFO:tensorflow:global_step/sec: 1.35485
+I0924 14:10:13.670608 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.35485
+INFO:tensorflow:global_step/sec: 1.364
+I0924 14:11:26.984845 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.364
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 37615...
+I0924 14:11:27.820857 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 37615...
+INFO:tensorflow:Saving checkpoints for 37615 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 14:11:27.821434 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 37615 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 37615...
+I0924 14:11:29.005810 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 37615...
+INFO:tensorflow:global_step/sec: 1.35077
+I0924 14:12:41.016423 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.35077
+INFO:tensorflow:global_step/sec: 1.48274
+I0924 14:13:48.459187 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.48274
+INFO:tensorflow:global_step/sec: 1.57828
+I0924 14:14:51.819187 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57828
+I0924 14:15:48.455785 139973512570688 run_model.py:84] Step 38000: Loss 0.845254
+INFO:tensorflow:global_step/sec: 1.50794
+I0924 14:15:58.134821 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50794
+INFO:tensorflow:global_step/sec: 1.56964
+I0924 14:17:01.843543 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.56964
+INFO:tensorflow:global_step/sec: 1.51256
+I0924 14:18:07.956668 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.51256
+INFO:tensorflow:global_step/sec: 1.47693
+I0924 14:19:15.664549 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.47693
+INFO:tensorflow:global_step/sec: 1.61002
+I0924 14:20:17.775452 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61002
+INFO:tensorflow:global_step/sec: 1.61999
+I0924 14:21:19.504222 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61999
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 38528...
+I0924 14:21:28.167324 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 38528...
+INFO:tensorflow:Saving checkpoints for 38528 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 14:21:28.167662 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 38528 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 38528...
+I0924 14:21:29.067062 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 38528...
+INFO:tensorflow:global_step/sec: 1.59894
+I0924 14:22:22.045617 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59894
+INFO:tensorflow:global_step/sec: 1.63421
+I0924 14:23:23.237155 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63421
+INFO:tensorflow:global_step/sec: 1.621
+I0924 14:24:24.927434 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.621
+INFO:tensorflow:global_step/sec: 1.61915
+I0924 14:25:26.688191 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61915
+I0924 14:26:20.845405 139973512570688 run_model.py:84] Step 39000: Loss 0.0962448
+INFO:tensorflow:global_step/sec: 1.61211
+I0924 14:26:28.718589 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61211
+INFO:tensorflow:global_step/sec: 1.63665
+I0924 14:27:29.819061 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63665
+INFO:tensorflow:global_step/sec: 1.63382
+I0924 14:28:31.025906 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63382
+INFO:tensorflow:global_step/sec: 1.62622
+I0924 14:29:32.517243 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.62622
+INFO:tensorflow:global_step/sec: 1.61012
+I0924 14:30:34.624456 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61012
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 39501...
+I0924 14:31:28.706048 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 39501...
+INFO:tensorflow:Saving checkpoints for 39501 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 14:31:28.706519 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 39501 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 39501...
+I0924 14:31:29.584002 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 39501...
+INFO:tensorflow:global_step/sec: 1.57799
+I0924 14:31:37.996073 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.57799
+INFO:tensorflow:global_step/sec: 1.46373
+I0924 14:32:46.314636 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.46373
+INFO:tensorflow:global_step/sec: 1.60027
+I0924 14:33:48.804690 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60027
+INFO:tensorflow:global_step/sec: 1.53514
+I0924 14:34:53.944746 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.53514
+INFO:tensorflow:global_step/sec: 1.58284
+I0924 14:35:57.122353 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58284
+I0924 14:36:51.032780 139973512570688 run_model.py:84] Step 40000: Loss 0.390625
+INFO:tensorflow:global_step/sec: 1.61314
+I0924 14:36:59.113355 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61314
+INFO:tensorflow:global_step/sec: 1.61609
+I0924 14:38:00.991074 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61609
+INFO:tensorflow:global_step/sec: 1.60377
+I0924 14:39:03.344164 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60377
+INFO:tensorflow:global_step/sec: 1.60472
+I0924 14:40:05.660311 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60472
+INFO:tensorflow:global_step/sec: 1.61723
+I0924 14:41:07.494280 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61723
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 40449...
+I0924 14:41:28.895297 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 40449...
+INFO:tensorflow:Saving checkpoints for 40449 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 14:41:28.895653 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 40449 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 40449...
+I0924 14:41:29.877406 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 40449...
+INFO:tensorflow:global_step/sec: 1.59883
+I0924 14:42:10.040134 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.59883
+INFO:tensorflow:global_step/sec: 1.66936
+I0924 14:43:09.943215 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.66936
+INFO:tensorflow:global_step/sec: 1.64389
+I0924 14:44:10.774521 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.64389
+INFO:tensorflow:global_step/sec: 1.58365
+I0924 14:45:13.919651 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.58365
+INFO:tensorflow:global_step/sec: 1.44372
+I0924 14:46:23.185153 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.44372
+I0924 14:47:14.244381 139973512570688 run_model.py:84] Step 41000: Loss 0.700612
+INFO:tensorflow:global_step/sec: 1.70493
+I0924 14:47:21.838598 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.70493
+INFO:tensorflow:global_step/sec: 1.71346
+I0924 14:48:20.200118 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.71346
+INFO:tensorflow:global_step/sec: 1.60946
+I0924 14:49:22.332912 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60946
+INFO:tensorflow:global_step/sec: 1.35975
+I0924 14:50:35.875831 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.35975
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 41393...
+I0924 14:51:29.397880 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 41393...
+INFO:tensorflow:Saving checkpoints for 41393 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 14:51:29.398180 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 41393 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 41393...
+I0924 14:51:30.336266 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 41393...
+INFO:tensorflow:global_step/sec: 1.48977
+I0924 14:51:43.000124 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.48977
+INFO:tensorflow:global_step/sec: 1.5655
+I0924 14:52:46.877416 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5655
+INFO:tensorflow:global_step/sec: 1.43
+I0924 14:53:56.807774 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.43
+INFO:tensorflow:global_step/sec: 1.48453
+I0924 14:55:04.169064 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.48453
+INFO:tensorflow:global_step/sec: 1.46627
+I0924 14:56:12.369261 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.46627
+INFO:tensorflow:global_step/sec: 1.50856
+I0924 14:57:18.657800 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50856
+I0924 14:58:13.621551 139973512570688 run_model.py:84] Step 42000: Loss 1.25407
+INFO:tensorflow:global_step/sec: 1.60603
+I0924 14:58:20.923266 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.60603
+INFO:tensorflow:global_step/sec: 1.52463
+I0924 14:59:26.512887 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.52463
+INFO:tensorflow:global_step/sec: 1.61393
+I0924 15:00:28.473278 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.61393
+INFO:tensorflow:global_step/sec: 1.63478
+I0924 15:01:29.643616 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.63478
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 42314...
+I0924 15:01:29.644950 139973512570688 basic_session_run_hooks.py:627] Calling checkpoint listeners before saving checkpoint 42314...
+INFO:tensorflow:Saving checkpoints for 42314 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+I0924 15:01:29.645216 139973512570688 basic_session_run_hooks.py:632] Saving checkpoints for 42314 into /data/HOI/LiuSiyu/MeshGraphNets/data/chk_simple/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 42314...
+I0924 15:01:30.537408 139973512570688 basic_session_run_hooks.py:639] Calling checkpoint listeners after saving checkpoint 42314...
+INFO:tensorflow:global_step/sec: 1.54336
+I0924 15:02:34.437353 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.54336
+INFO:tensorflow:global_step/sec: 1.50322
+I0924 15:03:40.961194 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.50322
+INFO:tensorflow:global_step/sec: 1.5995
+I0924 15:04:43.480941 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.5995
+INFO:tensorflow:global_step/sec: 1.38586
+I0924 15:05:55.638496 139973512570688 basic_session_run_hooks.py:716] global_step/sec: 1.38586

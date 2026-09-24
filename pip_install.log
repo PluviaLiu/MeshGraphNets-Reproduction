@@ -1,0 +1,55 @@
+########## [1/4] tensorflow==2.15.1 (CPU wheel; GPU extras added later)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 457.5 kB/s  0:00:14
+Collecting pyparsing>=3 (from matplotlib)
+  Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Collecting python-dateutil>=2.7 (from matplotlib)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in ./env/lib/python3.10/site-packages (from astunparse>=1.6.0->tensorflow==2.15.1) (0.47.0)
+Collecting cffi>=2.0.0 (from cryptography>=38.0.3->google-auth<3,>=1.6.3->tensorboard<2.16,>=2.15->tensorflow==2.15.1)
+  Downloading cffi-2.1.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (218 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=38.0.3->google-auth<3,>=1.6.3->tensorboard<2.16,>=2.15->tensorflow==2.15.1)
+  Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Collecting pyasn1<0.7.0,>=0.6.1 (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<2.16,>=2.15->tensorflow==2.15.1)
+  Downloading pyasn1-0.6.4-py3-none-any.whl (84 kB)
+Collecting oauthlib>=3.0.0 (from requests-oauthlib>=0.7.0->google-auth-oauthlib<2,>=0.5->tensorboard<2.16,>=2.15->tensorflow==2.15.1)
+  Downloading oauthlib-3.3.1-py3-none-any.whl (160 kB)
+Collecting markupsafe>=2.1.1 (from werkzeug>=1.0.1->tensorboard<2.16,>=2.15->tensorflow==2.15.1)
+  Downloading markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+Installing collected packages: libclang, flatbuffers, wrapt, urllib3, typing-extensions, termcolor, tensorflow-io-gcs-filesystem, tensorflow-estimator, tensorboard-data-server, six, pyparsing, pycparser, pyasn1, protobuf, pillow, opt-einsum, oauthlib, numpy, markupsafe, markdown, kiwisolver, keras, idna, gast, fonttools, cycler, charset_normalizer, certifi, absl-py, werkzeug, requests, python-dateutil, pyasn1-modules, ml-dtypes, h5py, grpcio, google-pasta, contourpy, cffi, astunparse, requests-oauthlib, matplotlib, cryptography, google-auth, google-auth-oauthlib, tensorboard, tensorflow
+
+Successfully installed absl-py-2.5.0 astunparse-1.6.3 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.1 contourpy-1.3.2 cryptography-50.0.1 cycler-0.12.1 flatbuffers-25.12.19 fonttools-4.65.0 gast-0.7.0 google-auth-2.58.0 google-auth-oauthlib-1.4.1 google-pasta-0.2.0 grpcio-1.84.0 h5py-3.16.0 idna-3.20 keras-2.15.0 kiwisolver-1.5.1 libclang-18.1.1 markdown-3.10.3 markupsafe-3.0.3 matplotlib-3.10.9 ml-dtypes-0.3.2 numpy-1.26.4 oauthlib-3.3.1 opt-einsum-3.4.0 pillow-12.3.0 protobuf-4.25.9 pyasn1-0.6.4 pyasn1-modules-0.4.2 pycparser-3.0 pyparsing-3.3.2 python-dateutil-2.9.0.post0 requests-2.34.2 requests-oauthlib-2.0.0 six-1.17.0 tensorboard-2.15.2 tensorboard-data-server-0.7.2 tensorflow-2.15.1 tensorflow-estimator-2.15.0 tensorflow-io-gcs-filesystem-0.37.1 termcolor-3.3.0 typing-extensions-4.16.0 urllib3-2.8.0 werkzeug-3.1.8 wrapt-1.14.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+########## [2/4] dm-sonnet==1.36 (--no-deps)
+Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
+Collecting dm-sonnet==1.36
+  Downloading dm_sonnet-1.36-py3-none-any.whl (665 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 665.3/665.3 kB 399.6 kB/s  0:00:01
+Installing collected packages: dm-sonnet
+Successfully installed dm-sonnet-1.36
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+########## [3/4] sonnet deps + tensorflow-probability==0.23.0 (sonnet imports tfp at module level)
+Requirement already satisfied: absl-py in ./env/lib/python3.10/site-packages (from tensorflow-probability==0.23.0) (2.5.0)
+Requirement already satisfied: numpy>=1.13.3 in ./env/lib/python3.10/site-packages (from tensorflow-probability==0.23.0) (1.26.4)
+Collecting decorator (from tensorflow-probability==0.23.0)
+  Downloading decorator-5.3.1-py3-none-any.whl (10 kB)
+Collecting cloudpickle>=1.3 (from tensorflow-probability==0.23.0)
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Requirement already satisfied: gast>=0.3.2 in ./env/lib/python3.10/site-packages (from tensorflow-probability==0.23.0) (0.7.0)
+Collecting attrs>=18.2.0 (from dm-tree)
+  Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Installing collected packages: semantic-version, decorator, contextlib2, cloudpickle, attrs, dm-tree, tensorflow-probability
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+dm-sonnet 1.36 requires tensorflow-probability<0.9.0,>=0.8.0, but you have tensorflow-probability 0.23.0 which is incompatible.
+Successfully installed attrs-26.1.0 cloudpickle-3.1.2 contextlib2-21.6.0 decorator-5.3.1 dm-tree-0.1.10 semantic-version-2.10.0 tensorflow-probability-0.23.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+########## [4/4] versions
+absl-py                      2.5.0
+dm-sonnet                    1.36
+matplotlib                   3.10.9
+numpy                        1.26.4
+tensorflow                   2.15.1
+tensorflow-estimator         2.15.0
+tensorflow-io-gcs-filesystem 0.37.1
+tensorflow-probability       0.23.0
+########## DONE

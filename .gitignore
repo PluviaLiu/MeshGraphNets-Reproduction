@@ -1,0 +1,12 @@
+# ---- Datasets, environments and large artifacts ----
+# Deliberately not tracked: data/ is 13 GB (flag_minimal + flag_simple + checkpoints),
+# env/ is a 2 GB conda prefix. Regenerate with the commands in README_repro.md §3.
+data/
+env/
+__pycache__/
+*.pyc
+
+# ---- Unmodified upstream clone ----
+# Not vendored: it is a pristine sparse checkout of google-deepmind/deepmind-research.
+# Fetch it with the two commands in README_repro.md §3.4.
+deepmind-research/
